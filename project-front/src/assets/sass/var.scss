@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto|Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Open+Sans|PT+Serif:400italic,700italic,400,700);
 
 $mainFont: 'Roboto', serif;
+$secondFont: 'PT Serif', serif;
 
 $mookieGrey: #374151;
 $mookieBeige: #e8e2d7;
@@ -12,14 +13,15 @@ $lightGrey: #cccccc;
 $white: #ffffff;
 
 $defaultSize: 12px;
-$mediumSize: 18px;
+$mediumSize: 16px;
 $largeSize: 24px;
 
-$xsMargin: 2px;
-$smMargin: 4px;
+$xsMargin: 4px;
+$smMargin: 6px;
 $defaultMargin: 8px;
+$lMargin: 16px;
 $xlMargin: 24px;
-$defaultRadius: 12px;
+$defaultRadius: 8px;
 $smRadius: 4px;
 
 $defaultBoxShadow: $smMargin $smMargin 4px $darkGrey;
@@ -27,3 +29,4 @@ $textShadowDark: $xsMargin $xsMargin 1px $darkGrey;
 $textShadowLight: $xsMargin $xsMargin 1px $lightGrey;
 
 $timelineOpacity: 0.6;
+$dividerOpacity: 0.6;
