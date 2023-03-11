@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Open+Sans:400italic,700italic,400,700);
+
+$mainFont: 'Roboto', serif;
+
+$mookieGrey: #374151;
+$mookieBeige: #e8e2d7;
+$mookieBrown: #4e3e3e;
+
+$black: #000000;
+$darkGrey: #333333;
+$lightGrey: #cccccc;
+$white: #ffffff;
+
+$defaultSize: 12px;
+$mediumSize: 18px;
+$largeSize: 24px;
+
+$xsMargin: 2px;
+$smMargin: 4px;
+$defaultMargin: 8px;
+$xlMargin: 24px;
+$defaultRadius: 12px;
+$smRadius: 4px;
+
+$defaultBoxShadow: $smMargin $smMargin 4px $darkGrey;
+$textShadowDark: $xsMargin $xsMargin 1px $darkGrey;
+$textShadowLight: $xsMargin $xsMargin 1px $lightGrey;
+
+$timelineOpacity: 0.6;
