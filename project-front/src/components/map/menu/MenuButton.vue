@@ -12,7 +12,9 @@ defineProps({
 });
 </script>
 <template>
-  <div class="menu-button" :class="{ 'menu-button--serif': serif }">{{ buttonText }}</div>
+  <div class="menu-button" :class="{ 'menu-button--serif': serif, 'menu-button--disabled': disabled }">
+    {{ buttonText }}
+  </div>
 </template>
 <style lang="scss" scoped>
 .menu-button {
@@ -25,6 +27,10 @@ defineProps({
   cursor: pointer;
   &--serif {
     font-family: $secondFont;
+  }
+  &--disabled {
+    background-color: $lightGrey;
+    color: $white;
   }
 }
 </style>

@@ -8,11 +8,10 @@ import ViewerButton from './menu/viewer/ViewerButton.vue';
     <hr class="menu__divider" />
     <menu-button class="menu__button" button-text="Tyrie Centrale" />
     <menu-button class="menu__button" button-text="Cantha" />
-    <menu-button class="menu__button" button-text="Fractale des Brumes" serif />
     <hr class="menu__divider" />
     <h3 class="menu__subtitle">Récits d'aventure</h3>
     <viewer-button class="menu__button" button-text="La Vallée des Esprits" />
-    <viewer-button class="menu__button" button-text="Le Passage de la Rédemption" serif />
+    <viewer-button class="menu__button" button-text="Le Passage de la Rédemption" />
     <viewer-button class="menu__button" button-text="La Forteresse des Fidèles" />
   </div>
 </template>
