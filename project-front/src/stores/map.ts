@@ -49,6 +49,7 @@ export const useMapStore = defineStore({
         icon: GW2_ICON,
       };
       const mapMarker = marker(markerData.coordinates, markerOptions);
+      mapMarker.bindPopup(`<h2>${markerData.name}</h2>`);
       mapMarker.addTo(this.map as Map);
     },
     focusMarker(markerData: MarkerData) {
