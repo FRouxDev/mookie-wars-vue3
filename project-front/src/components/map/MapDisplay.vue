@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { onMounted } from 'vue';
 import { markers } from '@/assets/data/markers';
 import MapPopup from './popup/MapPopup.vue';
 import 'leaflet/dist/leaflet.css';
